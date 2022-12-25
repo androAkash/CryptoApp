@@ -5,7 +5,7 @@
     android:id="@+id/homeFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/dark_blue"
+    android:background="@color/soft_white"
     tools:context=".fragments.HomeFragment">
 
     <androidx.cardview.widget.CardView
@@ -92,18 +92,27 @@
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <com.google.android.material.tabs.TabLayout
-            android:id="@+id/tabLayout"
+
+
+        <com.thelumiereguy.neumorphicview.views.NeumorphicCardView
+            android:id="@+id/neuroView"
+            style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
             app:layout_constraintBottom_toTopOf="@id/contentViewPager"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:tabIndicator="@null"
-            app:tabSelectedTextColor="@color/white"
-            app:tabTextColor="#7AFFFFFF" />
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                app:tabIndicator="@null"
+                app:tabTextColor="@color/black" />
+
+        </com.thelumiereguy.neumorphicview.views.NeumorphicCardView>
 
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/contentViewPager"
@@ -113,7 +122,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tabLayout" />
+            app:layout_constraintTop_toBottomOf="@id/neuroView" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
