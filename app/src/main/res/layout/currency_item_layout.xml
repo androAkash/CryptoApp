@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView android:id="@+id/currencyCardView"
-    style="@style/Widget.Neumorph.CardView"
-    app:neumorph_backgroundColor="@color/soft_blue"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="8dp"
@@ -16,7 +14,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="12dp">
+        android:padding="12dp"
+        android:background="#CED1F9">
 
         <ImageView
             android:id="@+id/currencyImageView"

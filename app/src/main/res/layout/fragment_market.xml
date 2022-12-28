@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/marketFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/soft_white"
+    android:background="@color/soft_pink"
     tools:context=".fragments.MarketFragment"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <soup.neumorphism.NeumorphCardView
+        <androidx.cardview.widget.CardView
             style="@style/Widget.Neumorph.CardView"
             android:id="@+id/search_card"
             android:layout_width="match_parent"
@@ -56,7 +56,7 @@
                 android:background="@color/soft_white"
                 android:src="@drawable/ic_baseline_search_24" />
 
-        </soup.neumorphism.NeumorphCardView>
+        </androidx.cardview.widget.CardView>
 
 
         <androidx.recyclerview.widget.RecyclerView

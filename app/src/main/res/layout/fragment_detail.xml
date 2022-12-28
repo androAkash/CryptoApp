@@ -275,6 +275,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    style="@style/Widget.Neumorph.CardView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp">
@@ -298,6 +299,7 @@
             </LinearLayout>
 
             <androidx.cardview.widget.CardView
+                style="@style/Widget.Neumorph.CardView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp">
