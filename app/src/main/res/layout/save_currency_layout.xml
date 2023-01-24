@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView android:id="@+id/currencyCardView"
+<soup.neumorphism.NeumorphCardView android:id="@+id/currencyCardView"
+    style="@style/ShapeAppearance.Neumorph.CardView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="8dp"
     android:layout_marginTop="8dp"
     android:layout_marginEnd="8dp"
     android:layout_marginBottom="4dp"
-    app:cardBackgroundColor="@color/soft_pink"
+    app:cardBackgroundColor="@color/soft_color"
     app:cardCornerRadius="12dp"
     app:cardElevation="8dp"
     xmlns:tools="http://schemas.android.com/tools"
@@ -96,4 +97,4 @@
             tools:text="12.45" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.cardview.widget.CardView>
+</soup.neumorphism.NeumorphCardView>

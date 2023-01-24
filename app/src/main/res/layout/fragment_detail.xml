@@ -5,7 +5,7 @@
     android:id="@+id/frameLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/soft_white">
+    android:background="@color/background_color">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/detailAppbar"
@@ -30,7 +30,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.cardview.widget.CardView
+        <com.thelumiereguy.neumorphicview.views.NeumorphicCardView
             android:id="@+id/design_card"
             style="@style/Widget.Neumorph.CardView"
             app:cardCornerRadius="30dp"
@@ -42,18 +42,20 @@
 
 
         <ImageButton
+            style="@style/ShapeAppearance.Neumorph.ImageButton"
             android:id="@+id/backStackButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
             android:padding="8dp"
+            android:elevation="12dp"
             android:src="@drawable/ic_back_stack"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:tint="@color/black" />
 
-        </androidx.cardview.widget.CardView>
+        </com.thelumiereguy.neumorphicview.views.NeumorphicCardView>
 
 
         <TextView

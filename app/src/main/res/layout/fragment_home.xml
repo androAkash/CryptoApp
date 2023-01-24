@@ -5,10 +5,10 @@
     android:id="@+id/homeFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/soft_white"
+    android:background="@color/background_color"
     tools:context=".fragments.HomeFragment">
 
-    <androidx.cardview.widget.CardView
+    <soup.neumorphism.NeumorphCardView
         android:id="@+id/cardView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
             android:scaleType="centerCrop"
             android:src="@drawable/cryptobanner" />
 
-    </androidx.cardview.widget.CardView>
+    </soup.neumorphism.NeumorphCardView>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/topCurrencyRecyclerView"

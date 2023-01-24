@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView android:id="@+id/topCurrencyCardView"
+<soup.neumorphism.NeumorphCardView android:id="@+id/topCurrencyCardView"
+    style="@style/ShapeAppearance.Neumorph.CardView"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
     android:layout_width="wrap_content"
-    app:cardBackgroundColor="@color/soft_white"
+    app:cardBackgroundColor="@color/background_primary"
     app:cardCornerRadius="12dp"
-    app:cardElevation="8dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:layout_width="wrap_content"
-            android:textColor="@color/black"
+            android:textColor="@color/text_color"
             android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -49,4 +49,4 @@
             tools:text="Bitcoin" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-</androidx.cardview.widget.CardView>
+</soup.neumorphism.NeumorphCardView>

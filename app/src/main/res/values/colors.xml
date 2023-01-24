@@ -9,11 +9,13 @@
     <color name="white">#FFFFFFFF</color>
     <color name="royal_blue_dark">#002366</color>
 
-    <color name="soft_white">#efeeee</color>
-    <color name="soft_blue">#b8ebff</color>
+    <color name="background_color">#efeeee</color>
+    <color name="background_primary">#efeeee</color>
+    <color name="second_background_color">#b8ebff</color>
     <color name="soft_black">#705549</color>
-    <color name="high_soft_blue">#88cff1</color>
-    <color name="soft_pink">#E5D6F4</color>
+    <color name="soft_blue_color">#88cff1</color>
+    <color name="soft_color">#E5D6F4</color>
+    <color name="text_color">#000000</color>
 
 
     <color name="purple">#A020F0</color>

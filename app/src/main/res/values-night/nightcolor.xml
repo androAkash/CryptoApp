@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="background_color">#414a4c</color>
+    <color name="background_primary">#efeeee</color>
+    <color name="second_background_color">#b8ebff</color>
+    <color name="soft_black">#705549</color>
+    <color name="soft_blue_color">#88cff1</color>
+    <color name="soft_color">#E5D6F4</color>
+    <color name="text_color">#FFFFFF</color>
 </resources>
